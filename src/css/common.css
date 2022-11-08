@@ -10,9 +10,21 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background: linear-gradient(to right, #544a7d, #ffd452);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.text {
+  text-decoration: none;
+  font-weight: 700;
+  tab-size: 35px;
+  color: rgb(236, 240, 17);
+}
+
+.sl-wrapper {
+  background: linear-gradient(to right, #544a7d, #ffd452);
 }
