@@ -12,3 +12,5 @@ const onPlay = function (data) {
 };
 
 player.setCurrentTime();
+
+console.log(object);
