@@ -26,14 +26,12 @@ const onFormChange = e => {
 
 const onFormSubmit = e => {
   e.preventDefault();
-
-  localStorage.removeItem(LS_KEY);
   e.currentTarget.reset();
+  console.log(userData);
+  localStorage.removeItem(LS_KEY);
 };
 
 formEl.addEventListener('input', throttle(onFormChange, 500));
 formEl.addEventListener('submit', onFormSubmit);
 
 check_LS();
-
-console.log(userData);
